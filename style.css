@@ -1,0 +1,81 @@
+.one{
+	font-size: 34px;
+	font-family: 'Akaya Telivigala', cursive;
+	margin-left: 5%;
+}
+.header-font{
+	font-size: 24px;
+	font-family: 'Lobster', cursive;
+	color: black;
+
+}
+.li-bac:hover{
+	display: block;
+	background-color: #eb4034;
+	color: black;
+}
+.li-bac{
+
+}
+.nav-item a
+{
+	margin-right: 20px;
+
+}
+.one:hover{
+	color: #eb4034
+	
+}
+.img-man{
+	width: 100%;
+	height: 600px;
+}
+.h1-man{
+	font-weight: bold;
+	font-size: 22px;
+	float: right;
+}
+.h12-man
+{
+	font-weight: bold;
+	font-size: 18px;
+	float: right;
+}
+.a{
+	color: red;
+	background-color: white;
+	transition: scale(1)
+}
+.a:hover{
+	color: white;
+	background-color: blue;
+	transition: scale(1)
+}
+.font{
+	font-size: 24px;
+	font-family: 'Lobster', cursive;
+	color: white;
+}
+.img__man
+{
+	width: 20%;
+	padding: 10px;
+	 filter: grayscale(100%);
+	transition: all 1s ease-in-out;
+}
+
+.img__man:hover{
+filter:grayscale(0);
+transform: rotate(360deg);
+width: 25%;
+}
+@media (max-width: 600)
+{
+	.img__man
+{
+	width: 100%;
+	padding: 10px;
+	 filter: grayscale(100%);
+	transition: all 1s ease-in-out;
+}
+}
