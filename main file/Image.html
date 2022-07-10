@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Css position</title>
+    <style type="text/css">
+        #container
+        {
+            border:2px solid black;
+            background-color:hotpink;
+            background-image: url('');
+            height: 5000px;
+
+        }
+        .box
+        {
+            display: inline-block;
+            border:2px solid red;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+            background-color: red;
+
+        }
+        #box2{
+            position: sticky;
+            top:100px;
+            background-image: url('pic/nature.jpg');
+            background-position: 100% 100%;
+            height: 1000px;
+            width: 100%;
+
+        
+        }
+          #box3{
+            position: fixed;
+            right: 4px;
+            top:60px;
+            height: 100px;
+            width: 100%;
+            background-color: white;
+        }/*
+          #box4{
+            position: absolute;
+            top:80px;
+            left: 80px;
+            border: 2px solid green;
+            background-color: green
+        }*/
+    </style>
+</head>
+<body>
+<div id="container">
+    <div class="box" id="box1">1</div>
+    <div class="box" id="box2">2</div>
+    <div class="box" id="box3">
+        <h1>This is a temp</h1>
+    </div>
+    <div class="box" id="box4">4</div>
+</div>
+</body>
+</html>

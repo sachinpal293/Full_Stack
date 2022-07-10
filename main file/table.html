@@ -1,0 +1,56 @@
+<html>
+    <title> Table Html</title>
+    <head>
+        <body>
+            <style><!-- This Style Protion is All Is CSS Portion It Will Use for style of Table-->
+                table,th,td{
+                    border: 1px solid red;
+                text-align: center;
+                    font-size: 25px;
+                    padding: 10px;
+                }
+            </style>    
+            <h2> This is All about tables in html</h2>
+            <table><caption><strong> Student Detail</strong></caption><!-- caption is use for tables Heading -->
+                <thead>
+                    <tr>
+                    <th>Name</th>
+                    <th>Father'name</th>
+                    <th>Course</th>
+                    <th>Branch</th>
+                    <th>Roll No</th>
+                    <th colspan="2">Percentage</th><!--colspan is use for join the same data colume data  and 2 is indicate number of col-->
+                    </tr>
+                </thead> 
+                <tbody>
+                    <tr>
+                        <td>Ankit</td>
+                        <td rowspan="2">Mr. Dhrup Pal</td><!--  Rowspan is use for join same dats Row and 2 is indicate number of rows-->
+                        <td>BBA</td>
+                        <td>mangment</td>
+                        <td>4019014</td>
+                        <td>98%</td>
+                        <td>1<sup>th</sup></td>
+                    </tr>    
+					<tr>
+					   <td>Shubham Pal</td>
+                        <td>B.Pharma</td>
+                        <td>Final Year</td>
+                        <td>4019045</td>
+                        <td>95%</td>
+                        <td>1<sup>th</sup></td>
+					</tr>
+					<tr>
+					     <td>Sachin Kumar Pal</td>
+                        <td>Mr. Dashrath Prasad Pal</td>
+                        <td>Diploma</td>
+                        <td>Cse</td>
+                        <td>1810541</td>
+                        <td>98%</td>
+                        <td>1<sup>th</sup></td>
+					</tr>
+                </tbody>    
+            </table>
+        </body>
+    </head>
+</html>    
