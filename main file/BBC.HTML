@@ -1,0 +1,256 @@
+<HTML>
+    <head><title> BBC News</title>
+        <style type="text/css">
+            body{
+                margin: 0px;
+                padding: 0px;
+                font-family: Helvetica, Arial, freesans, sans-serif;
+                
+            }
+            #topbar{
+                width: 1200px;
+                height: 40px;
+                margin: 0 auto;
+            }
+            #logo{
+                margin: 7px;
+                float: left;
+            }
+            .top{
+                border-left: 1px solid grey;
+                height: 116%;
+                float: left;
+            }
+            #signinlogo{
+                margin: 11px;
+                float: left;
+                
+            }
+            #text{
+               font-weight: bold;
+               padding-right: 10px;
+               position: relative;
+               top: 14px;
+                margin-right: 20px;
+            }
+            .toptext{
+                 position: relative;
+                 top: 14px;
+                 left: 14px;
+                 padding-right: 30px;
+                 font-weight: bold;
+                 font-size: 85%;
+            }
+            #morearrow{
+                float: left;
+                margin-top: 18px;
+                margin-left: 50px;
+            }
+            #more{
+                position: relative;
+                left: 14px;
+                top: 14px;
+                font-size: 85%;
+                font-weight: bold;
+                float: left;
+            }
+            #search{
+                border: 0px;
+                background-color: #E4E4E4;
+                margin-left: 10px;
+                margin-top: 12px;
+                padding-top: 2px;
+                padding-left: 5px;
+                padding-bottom: 5px;
+                font-weight: bold;
+                color: #858585;
+                float: left;
+            }
+            #searchicon{
+                margin-top: 12px;
+                width: 26px;
+                height: 23px;
+            }
+            .clear{
+                clear: both;
+            }
+            #bigredbar{
+                width: 100%;
+                height: 60px;
+                background-color: #BB1919;
+            }
+            #innerredbar{
+                width: 1200px;
+                margin: 0 auto;
+                height: 60px;
+            }
+            #bignews{
+                margin:0;
+                padding: 0;
+                font-family: Helvetica, Arial, freesans, sans-serif;
+                color: white;
+                font-weight: normal;
+                padding-top: 5px;
+                font-size: 43px;
+            }
+            #secondredbar{
+                width: 100%;
+                height: 30px;
+                background-color: #BB2929;
+            }
+            .secondinnerbar{
+                width: 1200px;
+                margin: 0 auto;
+                height: 100%;
+            }
+            .borderinner{
+                 border-left: 1px solid #BB4545;
+                height: 100%;
+                margin-left: 10px;
+                float: left;
+            }
+            .innertext{
+                 position: relative;
+                 top: 10px;
+                 left: 10px;
+                color: white;
+                 padding-right: 10px;
+                 padding-left: 5px;
+                 font-weight: normal;
+                 font-size: 85%;
+                text-decoration: none;
+            }
+            #innermore{
+                position: relative;
+                left: 14px;
+                top: 10px;
+                color: white;
+                font-size: 85%;
+                font-weight: bold;
+                float: left;
+                text-decoration: none;
+                
+            }
+            #innermorearrow{
+                float: left;
+                margin-top: 12px;
+                margin-left: 30px;   
+            }
+            #pagecontainer{
+                width: 1200px;
+                margin: 0 auto;
+            }
+            h2{
+                font-weight: normal;
+                margin-top: 10px;
+                font-size: 20px;
+                border-bottom: 2px solid #a91717;
+                width: 100px;
+            }
+            h1 a{
+                text-decoration: none;
+                color: #1D1D1B;
+            }
+            h1 a.hover{
+                color: #1167a8;
+            }
+            #article-summary{
+                width: 15px;
+                color: #5A5A5A;
+                float: left;
+            }
+            #clock{
+                width: 15px;
+                height: 15px;
+            }
+            #article-hr{
+                width: 50px;
+                color: #BB1919;
+            }
+            #play-button{
+                width:20px;
+                height: 20px;
+                position: relative;
+                top: 5px;
+            }
+            #article-link{
+                text-decoration: none;
+                color: #1167a8;
+                }
+            #article-link:hover{
+                color: #1167a8;
+            }
+            #article-image{
+                width: 480px;
+                margin-left: 20px;
+            }
+            #article{
+                float: left;
+                width: 770px;
+                border-right: 1px solid #cccccc;
+                padding-right: 2px;
+            }
+            #main{
+                float: left;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="topbar">
+            <img src="pic/bbclogo.PNG" id="logo">
+        <div class="top">
+            <img src="pic/blackcircle.png" id="signinlogo"><span id="text">Sign in</span>
+        </div>
+            <div margin="30px"></div>
+            <div class="top"><span class="toptext">Home</span></div>
+            <div class="top"><span class="toptext">News</span></div>
+            <div class="top"><span class="toptext">Sports</span></div>
+            <div class="top"><span class="toptext">Wheather</span></div>
+            <div class="top"><span class="toptext">Shop</span></div>
+            <div class="top"><span class="toptext">Earth</span></div>
+            <div class="top"><span class="toptext">Travel</span></div>
+            <div class="top"><span class="toptext">Capital</span></div>
+            <div class="top"><span id="more">More</span><img id="morearrow" src="pic/si.png"></div>
+            <div class="top"><input id="search" type="text" value="search"><img id="searchicon" src="pic/sr.PNG"></div>
+        </div>
+        <div class="clear"></div>
+        <div id="bigredbar">
+            <div id="innerredbar">
+                <h1 id="bignews">NEWS</h1>
+            </div>
+        </div>
+        <div id="secondredbar">
+            <div class="secondinnerbar">
+                <div class="borderinner"><a href="https:/www.google.com " class="innertext">Home</a></div>
+                <div class="borderinner"><a href=" " class="innertext">Coronavirus</a></div>
+                <div class="borderinner"><a href=" "  class="innertext">Video</a></div>
+                <div class="borderinner"><a href=" " class="innertext">World</a></div>
+                <div class="borderinner"><a href=" " class="innertext">Asia</a></div>
+                <div class="borderinner"><a href=" " class="innertext">UK</a></div>
+                <div class="borderinner"><a href=" " class="innertext">Business</a></div>
+                <div class="borderinner"><a href=" " class="innertext">Tech</a></div>
+                <div class="borderinner"><a href=" " class="innertext">Sicence</a></div>
+                <div class="borderinner"><a href=" " class="innertext">Stories</a></div>
+                <div class="borderinner"><a href=" " class="innertext">Entertainment & Arts</a></div>
+                <div class="borderinner"><a href=" " class="innertext">Health</a></div>
+                <div class="borderinner"><a href=" " class="innertext">World News Tv</a></div>
+                <div class="borderinner"><a href=" " class="innertext">In Pictures</a></div>
+                <div class="borderinner"><a href=" "id="innermore">More</a><img id="innermorearrow" src="pic/si.png"></div>
+               
+        </div>
+        </div>
+        <div class="clear"></div>
+        <div id="pagecontainer">
+            <div id="main">
+                <h2>Technology</h2>
+                <div id="article">
+                    <h1><a href="">Facebook And Instagram suffer most server outage ever</a></h1>
+                    <div id="article-summary">
+                        <p>The Social network confirms Problems with the "family of apps", but cause i0s Currently Unkown.</p>
+                        <p><img id="clock" src="pic/clocke.PNG">04 April 2020|<a href=" ">Technology</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</HTML>
