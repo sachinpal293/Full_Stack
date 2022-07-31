@@ -1,0 +1,15 @@
+{
+  "name": "npmmod",
+  "version": "1.0.0",
+  "description": "This is my learning series",
+  "main": "node index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jarves",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1"
+  }
+}
