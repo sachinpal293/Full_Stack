@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "name":"Sachin kumar Pal",
+        "Occupation":"Student",
+        "Institution":"JMIETI",
+        "Addresss":{
+            "city":"Yamuna nagar",
+            "subcity":"Radaur"
+        }
+    },
+    {
+        "id":2,
+        "name":"Nisha Mehta",
+        "Occupation":"Student",
+        "Institution":"JMIETI",
+        "Addresss":{
+            "city":"Yamuna nagar",
+            "subcity":"Radaur"
+        }
+
+    }
+]
